@@ -1,0 +1,3 @@
+# Sound-Event-Anonymization
+Official implementation of the paper "SOUND EVENT ANONYMIZATION: A FRAMEWORK FOR EVALUATING THE PRIVACY-UTILITY TRADE-OFF"
+To be released soon...
