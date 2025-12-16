@@ -47,3 +47,45 @@ unzip enroll_trial.zip
 ```
 
 
+## Step 3: Run the code in each module
+
+### 1.1 ATST evaluation
+```bash
+bash ATST-SEA/audiossl/methods/atstframe/shell/downtream/finetune_as_strong/test_frame_atst.bash
+```
+
+### 1.2 Diff-SV evaluation
+```bash
+bash DIFF-SV-SEA/code/diff_sv/main.py
+```
+
+### 1.3 EResNetV2 evaluation
+```bash
+bash RESNET-SEA/egs/voxceleb/sv-eres2netv2/run.sh
+```
+
+### 1.4 Baseline evaluation
+```bash
+python VPC-SEA/run_anonymization.py --config {choice_of_baseline}
+```
+
+Please cite these papers if you happen to use the codes:
+
+```BibTeX
+@article{chen20243d,
+  title={3D-Speaker-Toolkit: An Open Source Toolkit for Multi-modal Speaker Verification and Diarization},
+  author={Chen, Yafeng and Zheng, Siqi and Wang, Hui and Cheng, Luyao and others},
+  booktitle={ICASSP},
+  year={2025}
+}
+```
+
+```
+@article{kim2023diff,
+  title={Diff-SV: A Unified Hierarchical Framework for Noise-Robust Speaker Verification Using Score-Based Diffusion Probabilistic Models},
+  author={Kim, Ju-ho and Heo, Jungwoo and Shin, Hyun-seo and Lim, Chan-yeong and Yu, Ha-Jin},
+  journal={arXiv preprint arXiv:2309.08320},
+  year={2023}
+}
+```
+
